@@ -91,6 +91,14 @@ nav li:hover{
     right: 20px;
     z-index: 10;
 }
+.fixed img{
+    width: 55px;
+}
+.fixed span{
+    box-shadow: 2px 2px 2px 2px;
+    border-radius: 5px;
+    background-color: white;
+}
 .content{
     background-image: url(images/banner.webp);
     height: 600px;
@@ -421,5 +429,8 @@ footer h6{
     }
     .product img{
         margin-top: 50%;
+    }
+    .fixed img{
+        width: 25px;
     }
 }
