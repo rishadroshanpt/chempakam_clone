@@ -292,20 +292,35 @@ footer h6{
     margin: auto;
     margin-top: 9%;
 }
-.product div{
-    display: flex;
+.product #proimg{
+    float: left;
 }
 #con{
-    display: block;
-    width: 50%;
+    float: right;
+    width: 48%;
+    margin-top: 9%;
+}
+#con .fa-regular{
+    background-color: #f0f0f0;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    padding-top: 7px;
+    padding-left: 7px;
 }
 #conbtn{
-    border-bottom: 1px solid black;
-
+    padding-left: 0;
+}
+#con h1{
+    font-size: 26px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  color: #2e2e2e;
+  font-family: jost,sans-serif;
 }
 .product img{
     margin-top: 9%;
 }
-#det{
-    display: block;
+#det div{
+    float: left;
 }
