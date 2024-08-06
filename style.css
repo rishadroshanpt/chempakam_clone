@@ -20,6 +20,7 @@ body{
 .navbar{
     display: flex;
     position: relative;
+    height: 5%;
 }
 .navbar ul li a{
     color: #fff;
@@ -79,7 +80,8 @@ nav li:hover{
     padding-left: 5%;
 }
 .main{
-    padding-top: 133px;
+    margin-top: 5%;
+    padding-top: 5%;
     padding-bottom: 30px;
 }
 .fixed{
@@ -311,7 +313,7 @@ footer h6{
 #conbtn{
     padding-left: 0;
 }
-#con h1{
+.product h1{
     font-size: 26px;
   font-weight: 500;
   margin-bottom: 20px;
@@ -323,4 +325,7 @@ footer h6{
 }
 #det div{
     float: left;
+}
+#det2{
+    margin-left: 5%;
 }
