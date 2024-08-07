@@ -48,8 +48,7 @@ body{
   border-radius: .25rem;
   transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
-.dropdown-item{
-    color: #000;
+.dropdown-menu li a{
     background-color: #000;
 }
 #f2{
@@ -62,7 +61,7 @@ body{
     padding-left: 8%;
     width: 30%;
 }
-nav li:hover{
+.navbar-item a:hover,.cart i:hover{
     color: purple;
 }
 .cart{
@@ -77,6 +76,9 @@ nav li:hover{
 }
 .cart i{
     width: 50px;
+}
+.cart .fa-regular,.cart .fa-solid{
+    color: yellow;
 }
 .collapse{
     padding-left: 5%;
@@ -313,6 +315,9 @@ footer h6{
 .footerdet li:hover,.social li:hover{
     color: purple;
 }
+/* #footerlogo{
+    width:200px;
+} */
 .product{
     width: 75%;
     margin: auto;
@@ -426,11 +431,15 @@ footer h6{
     }
     .row2 img{
         margin: auto;
+        width: 300px;
     }
     .product img{
         margin-top: 50%;
     }
     .fixed img{
         width: 25px;
+    }
+    .navbar ul li a{
+        font-size: 2vw;
     }
 }
